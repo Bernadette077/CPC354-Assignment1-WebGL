@@ -1,0 +1,220 @@
+body
+{
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel h1
+{
+	color: #ffffff;
+}
+
+.canvas
+{
+	border: 10px solid #56876D;
+	border-radius: 10px;
+}
+
+.horizontal-align
+{
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vertical-align
+{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel
+{
+	margin-left: 10px;
+	width: 400px;
+	height: 720px;
+	border: 10px solid #56876D;
+	border-radius: 10px;
+	background: linear-gradient(45deg, #013631,#022D46);
+}
+
+.param-panel
+{
+	width: 270px;
+	margin: 5px 0 5px 0;
+}
+
+.mg-top-bottom
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Style for each color box */
+.color-picker-container {
+	position: relative;
+	display:inline-block;
+	width: 50px;  /* Fixed width for square box */
+	height: 50px; /* Fixed height for square box */
+	margin-right: 10px; /* Space between color boxes */
+	border:none;
+}
+
+.color-picker-container input[type="color"] {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	cursor: pointer;
+}
+
+.color-picker-container input[type="color"]:focus {
+    outline: none; /* Make sure there's no outline when focused */
+    box-shadow: none; /* Remove the default box-shadow when focused */
+}
+
+.side-number {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: ffffff;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.slider
+{
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: large;
+	color: #ffffff;
+}
+
+.slider .slide
+{
+	width: 120px;
+	padding-top: 10px;
+}
+
+/* Style for the canvas ratio panel*/
+.ratio-panel
+{
+	background-color: #ffffff;
+	padding: auto;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-around;
+}
+.ratio-panel label
+{
+	margin-left: 5px;
+	font-size: 18px;
+}
+.ratio-panel input[type="radio"]
+{
+	margin-right: 5px;
+}
+
+.checkText
+{
+	width: 150px;
+	height: 20px;
+	font-weight: bold;
+	font-size: large;
+	color: #ffffff;
+}
+
+.checkRadio
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 22px;
+}
+
+.textbox
+{
+	margin-left: 15px;
+	width: 50px;
+	height: 50px;
+	background: #026056;
+	border: 5px solid #44CD89;
+	border-radius: 10px;
+}
+
+.textbox p
+{
+	position: relative;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 0.25;
+}
+
+.common-btn
+{
+	margin: 15px 0px 5px 0px;
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	color: #000025;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	outline : none;
+}
+
+#start-btn
+{
+	background: #00ff66;
+	border: 4px solid #f4ffaf;
+}
+
+#stop-btn
+{
+	background: #ff0000;
+	border: 4px solid #ffdbf9;
+}
+
+.common-btn:hover
+{
+	animation: bounce 1s;
+}
+
+#start-btn:active
+{
+  background-color 	: #00ff66;
+  box-shadow 		: 0 2px #666666;
+  transform 		: translateY(2px);
+}
+
+#stop-btn:active
+{
+  background-color 	: #ffffff;
+  box-shadow 		: 0 2px #666666;
+  transform 		: translateY(2px);
+}
+
+.common-btn:disabled
+{
+    animation: none;
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+@keyframes bounce 
+{
+	0%, 20%, 60%, 100%	{transform: translateY(0);}
+	40% 				{transform: translateY(-10px);}
+	80% 				{transform: translateY(-5px);}
+}
