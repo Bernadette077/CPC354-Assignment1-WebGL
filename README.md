@@ -1,5 +1,5 @@
-# 🎨 3D Ident Program 
-Welcome to the 3D Ident Program! This project leverages WebGL technology to create and manipulate dynamic 3D animations directly within your web browser. Specifically, the program showcases a 3D gasket that you can interact with through a variety of transformations and color customizations. 
+# 🎨 3D TV Ident Program 
+Welcome to the 3D TV Ident Program! This project leverages WebGL technology to create and manipulate dynamic 3D animations directly within your web browser. Specifically, the program showcases a 3D gasket that you can interact with through a variety of transformations and color customizations. 
 
 This assignment extends the 3D gasket program from Angel’s Interactive Computer Graphics (7th Edition) to create an interactive animated logo with transformations and user-controlled parameters.
 
