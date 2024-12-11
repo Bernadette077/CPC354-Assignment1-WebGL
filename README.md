@@ -36,10 +36,24 @@ This assignment extends the 3D gasket program from Angel’s Interactive Compute
 
   Includes the JavaScript code for controlling rotation, scaling and translation of 3D animation, handles dynamic changes to gasket properties such as color customization and speed controls.
 
+---
+
+## 🚀 How to use
+   
+1. **Download XAMPP from official Apache Friends Website:**
+
+   - [Install XAMPP](https://www.apachefriends.org/download.html)
+
+2. **Run HTML File:**
+   - Download `Latest Assignment1` folder
+   - Start the Apache server in the XAMPP control panel.
+   - Navigate to the project directory where the Assign1_HTML folder is located.
+   - Open the Assign1_HTML file (index.html) in a web browser 
+
+
+
 ## 💻 Technology Used 
 - **`WebGL`**: For rendering interactive 3D graphics in the browser.
 - **`JavaScript & HTML5`**: To handle user interactions and control animations.
-
-Feel free to explore, experiment, and customize the code to learn more about 3D graphics rendering with WebGL!
 
 ---
